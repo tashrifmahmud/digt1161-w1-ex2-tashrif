@@ -36,3 +36,11 @@ This may confuse users because the quantity and total displayed on the page do n
 ## Notes
 
 Refreshing the page updates the total correctly, so the issue appears to be related to the cart interface not refreshing automatically.
+
+## Severity
+
+**Medium** - the issue does not block checkout, but it may cause confusion because the displayed cart total becomes inconsistent with the selected quantity.
+
+## Reproduction Frequency
+
+Occurs consistently when the item quantity is changed without refreshing the page.
